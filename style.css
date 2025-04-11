@@ -1,0 +1,77 @@
+body{
+    background-color: #212121;
+    color: white;
+}
+
+.form{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    /* vertical-align: middle; */
+    row-gap: 30px;
+    align-items: center;
+    /* justify-content: center; */
+    border: solid 2px;
+    width: 15vw;
+    height: 40vh;
+    background-color: yellow;
+    color: #212121;
+}
+
+.calculate-button{
+    height: 5vh;
+    width: 10vw;
+    background-color: rgb(56, 181, 56);
+    border-radius: 20px;
+    border-style: none;
+}
+.bmi-info{
+    background-color: rgb(233, 79, 79);
+    width: 15vw;
+    height: 40vh;
+    margin: auto;
+}
+
+.heading,.first,.second,.third{
+    font-size: 1.7rem;
+    color: black;
+}
+.heading{
+    text-decoration: underline;
+}
+.result{
+    font-size: 1.5rem;
+    color: green;
+    margin-left: 90vh;
+}
+
+@media  screen and (max-width:412px){
+    .form{
+       
+        width: 67vw;
+        height: 60vh;
+        
+       
+    }
+    .bmi-info{
+        
+        width: 67vw;
+        height: 40vh;
+        
+    }
+
+    .result{
+        margin-left: 10vh;
+    }
+
+    .calculate-button{
+        height: 7vh;
+        width: 25vw;
+       
+    }
+
+    .heading,.first,.second,.third{
+        font-size: 1.3rem;
+        color: black;
+    }
+}
